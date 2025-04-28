@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~g5J0UDIT#QseNQXbLWFdcjfx_mPi-1dh0XLO_C9dufTtOjarUsgM' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~84xwDa7a#Vn9U20j_x3Qg-WHu35WahDl4lmq3vzYHpbRSP4A6cX4' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -33,11 +33,11 @@ global.ownername = process.env.OWNER_NAME || 'Hector Manuel'
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "August" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Many" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
