@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~p7NilZDI#XWkp6iSu_I5XKzg9CljAp21FFUzlpSXJjPCNH_oQdnY' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~wqc0jb6C#QHHcWqiIykF05tD-v0XogKXZ7xRELaNhTsFjkYTQXKk' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -24,17 +24,17 @@ global.botname = process.env.BOT_NAME || 'KANGO-XMD'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '27689344972' 
+global.ownernumber = process.env.OWNER_NUMBER || '22897040258' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202', '27632873979'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tristan' 
+global.ownername = process.env.OWNER_NAME || 'August Many' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -42,7 +42,7 @@ global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD"
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "August" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
